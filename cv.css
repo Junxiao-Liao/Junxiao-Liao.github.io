@@ -1,0 +1,136 @@
+& {
+    background-color: white;
+    padding: 9mm;
+}
+
+@page {
+    size: B4;
+    margin: 3mm;
+}
+
+* {
+    font-size: 12px;
+    color: #333;
+    font-family: 'Times New Roman', 'Hiragino Sans GB', 'Kaiti', 'sans-serif';
+}
+
+a {
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+p,
+blockquote {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', 'Kaiti', 'serif';
+    border: none;
+    margin-bottom: 0.25rem;
+}
+
+h1 + *,
+h2 + *,
+h3 + *,
+h4 + *,
+h5 + * {
+    margin-top: 0.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h2 a,
+h3 a,
+h3 strong,
+h3 b {
+    color: #004080;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0.4rem;
+}
+
+h1 + p,
+h1 + p strong,
+h1 + p a {
+    font-size: 11px;
+    color: #555;
+}
+
+h1 + p {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+}
+
+h1 + p strong {
+    margin-left: .4rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    margin-top: 1.05rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.0625rem;
+    margin-top: 0.65rem;
+}
+
+em {
+    float: right;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 + blockquote p {
+    font-weight: bold;
+}
+
+p,
+ul li,
+ol li {
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding-left: 1rem;
+}
+
+ul li,
+ol li {
+    margin-bottom: 0;
+}
+
+ul li + li,
+ol li + li {
+    margin-top: 0.125rem;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
