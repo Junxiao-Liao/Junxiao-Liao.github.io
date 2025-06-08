@@ -10,7 +10,7 @@
 
 ### Bachelor's Degree in Engineering [**@Jinan: Shandong University, School of Software**](https://www.sc.sdu.edu.cn/) *Sep 2020 - Jun 2024*
 
-**Major: Digital Media Technology** – Core foundation in Computer Science *(Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases)* with specialization in *(Computer Graphics, Digital Image Processing, Machine Learning, Deep Learning)*.
+- **Major: Digital Media Technology** – Built a foundation in core computer science topics (Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases) and included advanced studies in Computer Graphics, Digital Image Processing, Machine Learning, and Deep Learning.
 
 ## Internships
 
@@ -37,8 +37,8 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. Designed tech-stack architecture, Prisma schemas, and RESTful APIs.
 
 ### [Distributed Systems Assignments](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
-1. Implemented a **Total Order Multicast middleware** in C# using timestamp-based propose/agree protocol with thread-safe message queues and socket communication.
-1. Built a **custom backend framework** from scratch using raw sockets, implementing HTTP parsing, thread pool management, and RESTful API routing without external frameworks.
+1. Implemented a **Total Order Multicast middleware** in **C#** using timestamp-based propose/agree protocol with thread-safe message queues and socket communication.
+1. Built a **C# backend framework** from scratch using raw sockets, implementing HTTP parsing, thread pool management, and RESTful API routing without external frameworks.
 
 ### [Mini-Scheme](https://github.com/Junxiao-Liao/Mini-Scheme)
 1. Wrote a guide for creating a minimal Scheme interpreter, including the tokenizer, parser, and lexical scoping.
