@@ -1,6 +1,8 @@
 async function loadCV() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/Junxiao-Liao/Junxiao-Liao.github.io/main/cv.md');
+        // add timestamp to bust cache
+        const url = 'https://raw.githubusercontent.com/Junxiao-Liao/Junxiao-Liao.github.io/main/cv.md?v=' + Date.now();
+        const response = await fetch(url);
         const markdownText = await response.text();
         const htmlContent = marked.parse(markdownText);
         document.getElementById('cv-content').innerHTML = htmlContent;
