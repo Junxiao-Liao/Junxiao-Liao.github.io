@@ -1,4 +1,4 @@
-# Junxiao Liao (廖俊霄)
+# Junxiao Liao 廖俊霄
 
 **Email:** junxiao.liao@outlook.com; [**GitHub**/Junxiao-Liao](https://github.com/Junxiao-Liao)
 
@@ -30,6 +30,15 @@
 Title: *Design and Implementation of an Automatic Document Recognition and Classification System*
 1. Engineered a **full-stack web application** with FastAPI back-end and React front-end.
 1. Deployed **ML/DL algorithms** including OCR, text-embedding, and vector db.
+
+### [Electron-based Algorithm Training Platform](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
+1. Developed a desktop app with Electron, pairing a React UI and a TSOA (Express) backend for interactive algorithm challenges.
+1. Integrated local compilers/interpreters to let users write and run code in any preferred language.
+1. Designed tech-stack architecture, Prisma schemas, and RESTful APIs.
+
+### [Distributed Systems Assignments](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
+1. Implemented a **Total Order Multicast middleware** in C# using timestamp-based propose/agree protocol with thread-safe message queues and socket communication.
+1. Built a **custom backend framework** from scratch using raw sockets, implementing HTTP parsing, thread pool management, and RESTful API routing without external frameworks.
 
 ### [Mini-Scheme](https://github.com/Junxiao-Liao/Mini-Scheme)
 1. Wrote a guide for creating a minimal Scheme interpreter, including the tokenizer, parser, and lexical scoping.
