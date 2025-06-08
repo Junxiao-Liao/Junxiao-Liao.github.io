@@ -41,8 +41,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. Built a **C# backend framework** from scratch using raw sockets, implementing HTTP parsing, thread pool management, and RESTful API routing without external frameworks.
 
 ### [Mini-Scheme](https://github.com/Junxiao-Liao/Mini-Scheme)
-1. Wrote a guide for creating a minimal Scheme interpreter, including the tokenizer, parser, and lexical scoping.
-1. Implemented an example of this Mini-**Scheme interpreter in Typescript**.
+1. Implemented a Mini-**Scheme interpreter in Typescript**, including the tokenizer, parser, and lexical scoping..
 
 ## Skills
 
