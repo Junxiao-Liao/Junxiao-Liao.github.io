@@ -48,7 +48,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 - **Machine Learning**: scikit-learn, PyTorch, Transformers
 - **DevOps**: Git, Docker, GitHub Actions
 - **Operating System**: POSIX, Bash, systemd
-- **Middleware**: NGINX, RabbitMQ, gRPC
+- **Middleware**: NGINX, MQ, RPC
 - **Database**: SQL, MongoDB, Redis, MinIO
 - **Programming Languages**
     1. **VM-Based**: C#, Kotlin
