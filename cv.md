@@ -51,7 +51,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 - **Middleware**: NGINX, MQ, RPC
 - **Database**: SQL, MongoDB, Redis, MinIO
 - **Programming Languages**
-    1. **VM-Based**: C#, Kotlin
+    1. **Managed**: C#, Go
     1. **Interpreted**: Python, JavaScript
     1. **Functional**: F#, Elixir
     1. **Low-Level**: C++, Rust
