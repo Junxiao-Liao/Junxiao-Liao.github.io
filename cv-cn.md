@@ -14,12 +14,12 @@
 
 ## 实习经历
 
-### 汽车创新实习生 [**@北京：大众汽车集团，逸驾智能科技（Cariad China）**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
+### 汽车创新实习生 [**@北京：大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
 1. 设计和开发了**RESTful API**，通过Vector硬件和python-can的CANoe库收集和处理**CAN信号**，为多个开发团队访问信号提供基础。
 1. 参与设计和实现**嵌入式车载语音交互解决方案**。
 
-### 全栈开发实习生 [**@济南：泛软软件有限公司**](https://www.pansoft.com/contents/en/) *2023年7月 - 2023年10月（3个月）*
+### 全栈开发实习生 [**@济南：普联软件有限公司**](https://www.pansoft.com/contents/en/) *2023年7月 - 2023年10月（3个月）*
 
 1. 训练了一个**标签预测模型**，针对不平衡数据集选择了**SMOTE**方法，相比基线模型将标签预测召回率提高了60%。
 1. 参与了系统**分布式基础设施组件**（中间件）的选型决策。
