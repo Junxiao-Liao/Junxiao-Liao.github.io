@@ -32,7 +32,7 @@
 1. 部署了**机器学习/深度学习算法**，包括OCR、文本嵌入和向量数据库。
 
 ### [基于Electron的算法训练平台](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
-1. 使用**Electron.js**开发桌面应用，结合**React.js**前端和**node.js（TSOA & Express.js）**后端，用于交互式算法挑战。
+1. 使用**Electron.js**开发桌面应用，结合**React.js**前端和**node.js**（TSOA & Express.js）后端，用于交互式算法挑战。
 1. 集成本地编译器/解释器，让用户能够使用**任何偏好的编程语言编写和运行代码**。
 1. 设计了技术栈架构、Prisma模式和RESTful API。
 

@@ -32,7 +32,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. Deployed **ML/DL algorithms** including OCR, text-embedding, and vector db.
 
 ### [Electron-based Algorithm Training Platform](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
-1. Developed a desktop app with **Electron.js**, pairing a **React.js** frontend and a **node.js (TSOA & Express.js)** backend for interactive algorithm challenges.
+1. Developed a desktop app with **Electron.js**, pairing a **React.js** frontend and a **node.js** (TSOA & Express.js) backend for interactive algorithm challenges.
 1. Integrated local compilers/interpreters to let users write and **run code in any preferred language**.
 1. Designed tech-stack architecture, Prisma schemas, and RESTful APIs.
 
