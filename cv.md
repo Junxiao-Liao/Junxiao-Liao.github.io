@@ -8,9 +8,9 @@
 
 **Major: Information Technology**
 
-### Bachelor's Degree in Engineering [**@Jinan: Shandong University, School of Software**](https://www.sc.sdu.edu.cn/) *Sep 2020 - Jun 2024*
+### Bachelor's Degree in Engineering [**@Jinan: Shandong University**](https://www.sc.sdu.edu.cn/) *Sep 2020 - Jun 2024*
 
-**Major: Digital Media Technology** – Built a foundation in core computer science topics (Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases) and included advanced studies in Computer Graphics, Digital Image Processing, Machine Learning, and Deep Learning.
+**Major: Digital Media Technology, School of Software** – Built a foundation in core computer science topics (Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases) and included advanced studies in Computer Graphics, Digital Image Processing, Machine Learning, and Deep Learning.
 
 ## Internships
 
