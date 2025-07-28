@@ -6,7 +6,7 @@
 
 ### Master's Degree [**@Auckland: University of Auckland**](https://www.auckland.ac.nz) *Mar 2025 - Feb 2026*
 
-**Major: Information Technology**
+**Major: Information Technology, Faculty of Science**
 
 ### Bachelor's Degree in Engineering [**@Jinan: Shandong University**](https://www.sc.sdu.edu.cn/) *Sep 2020 - Jun 2024*
 
