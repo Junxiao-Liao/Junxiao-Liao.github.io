@@ -37,7 +37,7 @@
 
 ### [分布式系统作业](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
 1. 使用**C#**实现了**全序多播中间件**，采用基于时间戳的提议/同意协议，具有线程安全的消息队列和套接字通信。
-1. 从零开始构建了**C#后端框架**，使用原始套接字，实现HTTP解析、线程池管理和RESTful API路由，无需外部库。
+1. 从零开始**构建了C#后端框架**，使用原始套接字，实现HTTP解析、线程池管理和RESTful API路由，无需外部库。
 
 ### [Mini-Scheme](https://github.com/Junxiao-Liao/Mini-Scheme)
 1. 使用Typescript实现了Mini-**Scheme解释器**，包括词法分析器、语法分析器和词法作用域。

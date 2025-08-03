@@ -36,8 +36,8 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. Integrated local compilers/interpreters to let users write and **run code in any preferred language**.
 
 ### [Distributed Systems Assignments](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
-1. Implemented a **Total Order Multicast middleware** in **C#** using timestamp-based propose/agree protocol with thread-safe message queues and socket communication.
-1. Built a **C# backend framework** from scratch, using raw sockets, implementing HTTP parsing, thread pool management, and routing without external libraries.
+1. Built a **Total Order Multicast middleware** in **C#** using timestamp-based propose/agree protocol with thread-safe message queues and socket communication.
+1. **Implemented a C# backend framework** from scratch, using raw sockets, implementing HTTP parsing, thread pool management, and routing without external libraries.
 
 ### [Mini-Scheme](https://github.com/Junxiao-Liao/Mini-Scheme)
 1. Implemented a Mini-**Scheme interpreter in TypeScript**, including the tokenizer, parser, and lexical scoping.
