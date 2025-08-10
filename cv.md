@@ -6,7 +6,7 @@
 
 ### Master's Degree [**@Auckland: University of Auckland**](https://www.auckland.ac.nz) *Mar 2025 - Mar 2026*
 
-**Major: Information Technology, Faculty of Science**
+**Major: Information Technology, Faculty of Science** - [Parallel and Distributed Computing](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253), [Security](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/702/1253), [Algorithms for Massive Data](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/753/1255), [Advanced Computer Graphics](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/715/1255)
 
 ### Bachelor's Degree in Engineering [**@Jinan: Shandong University**](https://www.sdu.edu.cn/) *Sep 2020 - Jun 2024*
 

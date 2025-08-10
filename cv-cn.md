@@ -6,7 +6,7 @@
 
 ### 硕士学位 [**@新西兰奥克兰：奥克兰大学**](https://www.auckland.ac.nz) *2025年3月 - 2026年3月*
 
-**专业：信息技术，理学院**
+**专业：信息技术，理学院** - [并行与分布式计算](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)，[安全](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/702/1253)，[海量数据算法](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/753/1255)，[高级计算机图形学](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/715/1255)
 
 ### 工学学士学位 [**@济南：山东大学**](https://www.sdu.edu.cn/) *2020年9月 - 2024年6月*
 
