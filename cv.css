@@ -42,29 +42,29 @@
     }
 }
 
-& {
+/* replace invalid '&' rule with 'body' to ensure styles apply for printing */
+body {
     background-color: white;
     padding: 9mm;
 }
 
-@page {
-    size: B4;
-    margin: 3mm;
-}
-
+/* ensure a Chinese-capable web font is preferred and allow weight synthesis for printers/browsers */
 * {
     font-size: 12px;
     color: #333;
-    font-family: 'Times New Roman', 'Hiragino Sans GB', 'Kaiti', 'sans-serif';
+    /* prefer the web-loaded Noto Serif SC (has bold), then fall back to local fonts */
+    font-family: 'Noto Serif SC', 'Times New Roman', 'Hiragino Sans GB', 'Kaiti', 'sans-serif';
+    /* allow browsers to synthesize bold if necessary (helps printing when bold face not available) */
+    font-synthesis: weight;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-    text-decoration: none;
-}
-
+/* make sure bold elements request weight, and allow synthesis as a fallback */
 b,
 strong {
-    font-weight: 700
+    font-weight: 700;
+    font-synthesis: weight;
 }
 
 p,
