@@ -48,46 +48,31 @@ body {
     padding: 9mm;
 }
 
-/* ensure a Chinese-capable web font is preferred and allow weight synthesis for printers/browsers */
+/* Base styles - English CV uses Times New Roman, Chinese CV uses Noto Serif SC */
 * {
     font-size: 12px;
     color: #333;
-    /* font-family removed here so we can apply language-specific stacks below */
-    /* allow browsers to synthesize bold if necessary (helps printing when bold face not available) */
     font-synthesis: weight;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Language-specific font stacks
-   - English: prefer Times New Roman / Roboto Slab for headings
-   - Chinese: prefer Noto Serif SC (web font), then common system CJK fallbacks
-*/
+/* English CV - Times New Roman */
+body, #cv-content {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #cv-content:lang(en),
 #cv-content:lang(en) * {
-    font-family: 'Times New Roman', 'Georgia', 'serif';
+    font-family: 'Times New Roman', Times, serif;
 }
 
+/* Chinese CV - Noto Serif SC */
+:lang(zh) body,
+:lang(zh) #cv-content,
 #cv-content:lang(zh),
 #cv-content:lang(zh) * {
-    font-family: 'Noto Serif SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'sans-serif';
-}
-
-/* Headings: prefer Roboto Slab for English headings, Noto for Chinese headings */
-#cv-content:lang(en) h1,
-#cv-content:lang(en) h2,
-#cv-content:lang(en) h3,
-#cv-content:lang(en) h4,
-#cv-content:lang(en) h5 {
-    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', 'serif';
-}
-
-#cv-content:lang(zh) h1,
-#cv-content:lang(zh) h2,
-#cv-content:lang(zh) h3,
-#cv-content:lang(zh) h4,
-#cv-content:lang(zh) h5 {
-    font-family: 'Noto Serif SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'serif';
+    font-family: 'Noto Serif SC', serif;
 }
 
 b,
@@ -106,7 +91,6 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', 'serif';
     border: none;
     margin-bottom: 0.25rem;
 }
