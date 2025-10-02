@@ -16,7 +16,7 @@
 
 ### Car Innovation Intern [**@Beijing: Volkswagen Group, Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *Oct 2023 - Jun 2024 (8 mo)*
 
-1. **Backend**: Developed a centralized **RESTful API service** using **python-can** and **FastAPI** to standardize **CAN signal** read/write operations, replacing multiple redundant hardware deployments across development teams and enabling unified access to vehicle bus data.
+1. **Backend, DevOps**: Developed a centralized **RESTful API service** using **python-can** and **FastAPI** to standardize **CAN signal** read/write operations, replacing multiple redundant hardware deployments across development teams and enabling unified access to vehicle bus data.
 1. **Embedded**: Participated in the development of a **voice control system** running embedded Linux on an ARM-based single-board computer (Cortex-A53/M4F dual-core), integrating **microphone array hardware** and **CAN bus communication**.
 
 ### Full-Stack Developer Intern [**@Jinan: Pansoft Co., Limited**](https://www.pansoft.com/contents/en/) *Jul 2023 - Oct 2023 (3 mo)*
@@ -28,7 +28,7 @@
 
 ### [Undergraduate Thesis Project](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer)
 Title: *Design and Implementation of an Automatic Document Recognition and Classification System*
-1. **Full-Stack**: Built a **Web application** using **FastAPI** backend with **PostgreSQL**, **React.js** frontend with **Antd**, and **MinIO** for object storage.
+1. **Full-Stack**: Built a web application including backend (**FastAPI**, **PostgreSQL**), frontend (**React.js**, **Antd**), and object storage (**MinIO**).
 1. **Computer Vision**, **NLP**: Integrated **RapidOCR** for document text extraction and **multilingual-e5-large-instruct** model for text embedding.
 1. **Recommendation System**: Implemented vector-based document classification using **pgvector** extension.
 
@@ -37,8 +37,8 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. **Judge Engine**: Engineered a code execution engine that supports any language in a local environment, enabling users to run and submit solutions against test cases.
 
 ### [Distributed Systems Assignments](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
-1. **Total Order Multicast Middleware**: Implemented a distributed middleware in **C#** using a timestamp-based propose/agree protocol with thread-safe message queues and TCP socket communication to ensure all instances deliver messages in the same order.
-1. **HTTP Server from Scratch**: Built a complete **C# backend framework** using raw sockets, implementing HTTP request parsing, custom thread pool for concurrent connection handling, and RESTful API routing without external libraries.
+1. **Total Order Multicast Middleware**: Implemented a distributed middleware in **C#** using a timestamp-based propose/agree protocol.
+1. **HTTP Server from Scratch**: Built a complete **C# backend framework** (simulated ASP.NET minimal API) using raw sockets, implementing HTTP request parsing, custom thread pool, without external libraries.
 
 ## Skills
 
