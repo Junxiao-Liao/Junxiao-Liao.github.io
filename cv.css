@@ -53,7 +53,7 @@ body {
     font-size: 12px;
     color: #333;
     /* prefer the web-loaded Noto Serif SC (has bold), then fall back to local fonts */
-    font-family: 'Noto Serif SC', 'Times New Roman', 'Hiragino Sans GB', 'Kaiti', 'sans-serif';
+    font-family: 'Noto Serif SC', 'Times New Roman', 'Hiragino Sans GB', 'sans-serif';
     /* allow browsers to synthesize bold if necessary (helps printing when bold face not available) */
     font-synthesis: weight;
     -webkit-font-smoothing: antialiased;
@@ -77,7 +77,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', 'Kaiti', 'serif';
+    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', 'serif';
     border: none;
     margin-bottom: 0.25rem;
 }
