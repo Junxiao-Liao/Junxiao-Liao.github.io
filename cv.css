@@ -52,15 +52,44 @@ body {
 * {
     font-size: 12px;
     color: #333;
-    /* prefer the web-loaded Noto Serif SC (has bold), then fall back to local fonts */
-    font-family: 'Noto Serif SC', 'Times New Roman', 'Hiragino Sans GB', 'sans-serif';
+    /* font-family removed here so we can apply language-specific stacks below */
     /* allow browsers to synthesize bold if necessary (helps printing when bold face not available) */
     font-synthesis: weight;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* make sure bold elements request weight, and allow synthesis as a fallback */
+/* Language-specific font stacks
+   - English: prefer Times New Roman / Roboto Slab for headings
+   - Chinese: prefer Noto Serif SC (web font), then common system CJK fallbacks
+*/
+#cv-content:lang(en),
+#cv-content:lang(en) * {
+    font-family: 'Times New Roman', 'Georgia', 'serif';
+}
+
+#cv-content:lang(zh),
+#cv-content:lang(zh) * {
+    font-family: 'Noto Serif SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'sans-serif';
+}
+
+/* Headings: prefer Roboto Slab for English headings, Noto for Chinese headings */
+#cv-content:lang(en) h1,
+#cv-content:lang(en) h2,
+#cv-content:lang(en) h3,
+#cv-content:lang(en) h4,
+#cv-content:lang(en) h5 {
+    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', 'serif';
+}
+
+#cv-content:lang(zh) h1,
+#cv-content:lang(zh) h2,
+#cv-content:lang(zh) h3,
+#cv-content:lang(zh) h4,
+#cv-content:lang(zh) h5 {
+    font-family: 'Noto Serif SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'serif';
+}
+
 b,
 strong {
     font-weight: 700;

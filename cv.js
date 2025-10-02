@@ -12,6 +12,11 @@ async function loadCV(language = 'en') {
         const htmlContent = marked.parse(markdownText);
         document.getElementById('cv-content').innerHTML = htmlContent;
 
+        // set document and container language so CSS :lang() works
+        const docLang = language === 'cn' ? 'zh' : 'en';
+        document.documentElement.lang = docLang;
+        document.getElementById('cv-content').setAttribute('lang', docLang);
+
         // Process em tags to identify date ranges and convert them to special styling
         const emTags = document.querySelectorAll('#cv-content em');
         emTags.forEach(em => {
