@@ -67,12 +67,28 @@ body, #cv-content {
     font-family: 'Times New Roman', Times, serif;
 }
 
+@font-face {
+    font-family: 'NotoSerifSC';
+    src: local('Noto Serif SC Regular'),
+         local('NotoSerifSC-Regular');
+    /* Optional: later add url('fonts/NotoSerifSC-Regular.woff2') format('woff2'); */
+    font-display: swap;
+}
+
 /* Chinese CV - Noto Serif SC */
 :lang(zh) body,
 :lang(zh) #cv-content,
 #cv-content:lang(zh),
 #cv-content:lang(zh) * {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'NotoSerifSC', 'Noto Serif SC', "Microsoft YaHei", "PingFang SC", "SimSun", serif;
+}
+
+/* Print: force a system font to keep text selectable if Firefox outlines web font */
+@media print {
+    #cv-content:lang(zh),
+    #cv-content:lang(zh) * {
+        font-family: "Microsoft YaHei", "PingFang SC", "SimSun", serif !important;
+    }
 }
 
 b,
