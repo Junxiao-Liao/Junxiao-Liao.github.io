@@ -44,7 +44,7 @@
 
 - **编程语言**：
     - 熟练：C#、Python、JavaScript/TypeScript；C++
-    - 学术经验：Rust；F#、Scala、Racket、Elixir
+    - 学术经验：Java、Kotlin、Flutter；Rust；F#、Scala、Racket、Elixir
 - **机器学习**：scikit-learn、PyTorch、Transformers
 - **DevOps**：Git、容器、GitHub Actions
 - **操作系统**：POSIX、Bash、systemd

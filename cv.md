@@ -2,7 +2,7 @@
 
 **Email:** junxiao.liao@outlook.com; [**GitHub**/Junxiao-Liao](https://github.com/Junxiao-Liao); [**LinkedIn**/in/junxiao-liao](https://www.linkedin.com/in/junxiao-liao/)
 
-**Work Rights:** *Available for full-time work in NZ from Nov 2025; eligible for a 3-year NZ Post-Study Work Visa upon graduation.*
+**Work Rights (NZ)**: Available for full-time work in NZ from Nov 2025, pending a 3-year Post-Study Work Visa upon graduation.
 
 ## Education
 
@@ -45,7 +45,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 
 - **Programming Languages**:
     - Proficient: C#, Python, JavaScript/TypeScript; C++
-    - Academic Experience: Rust; F#, Scala, Racket, Elixir
+    - Academic Experience: Java, Kotlin, Flutter; Rust; F#, Scala, Racket, Elixir
 - **Machine Learning**: scikit-learn, PyTorch, Transformers
 - **DevOps**: Git, containers, GitHub Actions
 - **Operating System**: POSIX, Bash, systemd
