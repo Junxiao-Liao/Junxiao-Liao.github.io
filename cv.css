@@ -185,9 +185,3 @@ ul li + li,
 ol li + li {
     margin-top: 0.125rem;
 }
-
-ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
