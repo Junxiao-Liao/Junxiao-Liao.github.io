@@ -176,6 +176,43 @@ ol {
     padding-left: 1rem;
 }
 
+/* Top-level lists: 2-column layout */
+body > ul,
+body > ol,
+#cv-content > ul,
+#cv-content > ol {
+    column-count: 2;
+    column-gap: 1.5rem;
+    /* Optional: ensure better vertical alignment */
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Prevent items from splitting across columns */
+body > ul > li,
+body > ol > li,
+#cv-content > ul > li,
+#cv-content > ol > li {
+    break-inside: avoid;
+}
+
+/* Nested lists: force single column */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    column-count: 1;
+}
+
+/* Optional: tighten nested list spacing (keeps previous spacing if undesired) */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+}
+
 ul li,
 ol li {
     margin-bottom: 0;
