@@ -2,11 +2,11 @@
 
 **Email:** junxiao.liao@outlook.com; [**GitHub**/Junxiao-Liao](https://github.com/Junxiao-Liao); [**LinkedIn**/in/junxiao-liao](https://www.linkedin.com/in/junxiao-liao/)
 
+**Work Rights:** *Available for full-time work in NZ from Nov 2025; eligible for a 3-year NZ Post-Study Work Visa upon graduation.*
+
 ## Education
 
 ### Master's Degree | Auckland, New Zealand: [**University of Auckland**](https://www.auckland.ac.nz) *Mar 2025 - Mar 2026 (Expected)*
-
-*Available for full-time work in NZ from Nov 2025; eligible for a 3-year NZ Post-Study Work Visa upon graduation.*
 
 **Major: Information Technology (Faculty of Science)** – [Parallel and Distributed Computing](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253), [Security](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/702/1253), [Algorithms for Massive Data](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/753/1255), [Advanced Computer Graphics](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/715/1255)
 
