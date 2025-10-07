@@ -93,7 +93,8 @@ em, i {
 
 /* Style a standalone italic paragraph (the availability line) */
 p:has(> em:only-child) {
-    margin: 0.4rem 0;              /* add vertical separation */
+    margin: 0.25rem 0 0.4rem 0;    /* tighter top margin, add bottom separation */
+    font-style: italic;             /* ensure italic rendering */
 }
 
 /* Fallback for browsers without :has – give the em some breathing room */
