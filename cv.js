@@ -1,13 +1,39 @@
 let currentLanguage = 'en'; // Default language
 
+// fetch latest commit SHA once and reuse
+async function getRepoVersion() {
+    if (window.__REPO_VERSION) return window.__REPO_VERSION;
+    const cached = sessionStorage.getItem('REPO_VERSION');
+    if (cached) {
+        window.__REPO_VERSION = cached;
+        return cached;
+    }
+    try {
+        const resp = await fetch('https://api.github.com/repos/Junxiao-Liao/Junxiao-Liao.github.io/commits?per_page=1', { cache: 'no-store' });
+        if (!resp.ok) throw new Error('Bad status');
+        const data = await resp.json();
+        const sha = (data[0] && data[0].sha) ? data[0].sha.substring(0, 10) : Date.now().toString();
+        window.__REPO_VERSION = sha;
+        sessionStorage.setItem('REPO_VERSION', sha);
+        return sha;
+    } catch {
+        const fallback = Date.now().toString();
+        window.__REPO_VERSION = fallback;
+        return fallback;
+    }
+}
+
 async function loadCV(language = 'en') {
     try {
         // Determine the markdown file based on language
         const filename = language === 'cn' ? 'cv-cn.md' : 'cv.md';
-        
-        // add timestamp to bust cache
-        const url = `https://raw.githubusercontent.com/Junxiao-Liao/Junxiao-Liao.github.io/main/${filename}?v=` + Date.now();
+
+        // Use commit SHA (stable until next push) instead of Date.now()
+        const version = await getRepoVersion();
+        const url = `${filename}?v=${version}`; // relative path served by GitHub Pages
+
         const response = await fetch(url);
+        if (!response.ok) throw new Error('Failed to fetch markdown');
         const markdownText = await response.text();
         const htmlContent = marked.parse(markdownText);
         document.getElementById('cv-content').innerHTML = htmlContent;
@@ -58,5 +84,5 @@ document.addEventListener('DOMContentLoaded', function() {
     loadCV(); // Load default language (English)
 });
 
-// Also call loadCV immediately for backwards compatibility
+// Optional: keep for backward compatibility
 loadCV();

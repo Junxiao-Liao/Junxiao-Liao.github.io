@@ -11,13 +11,32 @@
 
     <!-- Load Noto Serif SC for Chinese -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- dynamically load freshest CSS -->
     <script>
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = 'https://cdn.jsdelivr.net/gh/Junxiao-Liao/Junxiao-Liao.github.io@main/cv.css?v=' + Date.now();
-      document.head.appendChild(link);
+      (async function loadCssWithRepoVersion() {
+        async function getRepoVersion() {
+          if (window.__REPO_VERSION) return window.__REPO_VERSION;
+            const cached = sessionStorage.getItem('REPO_VERSION');
+            if (cached) { window.__REPO_VERSION = cached; return cached; }
+            try {
+              const resp = await fetch('https://api.github.com/repos/Junxiao-Liao/Junxiao-Liao.github.io/commits?per_page=1', {cache:'no-store'});
+              if (!resp.ok) throw new Error();
+              const data = await resp.json();
+              const sha = (data[0] && data[0].sha) ? data[0].sha.substring(0,10) : Date.now().toString();
+              window.__REPO_VERSION = sha;
+              sessionStorage.setItem('REPO_VERSION', sha);
+              return sha;
+            } catch {
+              const fb = Date.now().toString();
+              window.__REPO_VERSION = fb;
+              return fb;
+            }
+        }
+        const version = await getRepoVersion();
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'cv.css?v=' + version;
+        document.head.appendChild(link);
+      })();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
