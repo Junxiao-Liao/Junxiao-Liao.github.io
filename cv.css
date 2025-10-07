@@ -86,6 +86,22 @@ blockquote {
     margin: 0;
 }
 
+/* Ensure italics always render (some CJK fonts lack native italic) */
+em, i {
+    font-style: italic;
+}
+
+/* Style a standalone italic paragraph (the availability line) */
+p:has(> em:only-child) {
+    margin: 0.4rem 0;              /* add vertical separation */
+}
+
+/* Fallback for browsers without :has – give the em some breathing room */
+p > em:only-child {
+    display: inline-block;
+    padding: 0.15rem 0;
+}
+
 h1,
 h2,
 h3,
