@@ -178,9 +178,7 @@ ol {
 
 /* Top-level lists: 2-column layout */
 body > ul,
-body > ol,
-#cv-content > ul,
-#cv-content > ol {
+#cv-content > ul {
     column-count: 2;
     column-gap: 1.5rem;
     /* Optional: ensure better vertical alignment */
@@ -188,20 +186,23 @@ body > ol,
     margin-bottom: 0.25rem;
 }
 
-/* Prevent items from splitting across columns */
+/* Ensure ordered lists stay single column (undo prior inclusion) */
+body > ol,
+#cv-content > ol {
+    column-count: 1;
+}
+
+/* Prevent unordered list items from splitting across columns */
 body > ul > li,
-body > ol > li,
-#cv-content > ul > li,
-#cv-content > ol > li {
+#cv-content > ul > li {
     break-inside: avoid;
 }
 
-/* Nested lists: force single column */
-ul ul,
-ul ol,
-ol ul,
-ol ol {
+/* Nested unordered lists: force single column */
+ul ul {
     column-count: 1;
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
 }
 
 /* Optional: tighten nested list spacing (keeps previous spacing if undesired) */
