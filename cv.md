@@ -12,7 +12,7 @@
 
 ### Bachelor's Degree in Engineering | Jinan, China: [**Shandong University**](https://www.sdu.edu.cn/) *Sep 2020 - Jun 2024*
 
-**Major: Digital Media Technology, School of Software** – Computer science fundamentals (Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases) and advanced topics (Computer Graphics, Digital Image Processing, Machine Learning, and Deep Learning).
+**Major: Digital Media Technology (School of Software)** – Computer science fundamentals (Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases) and advanced topics (Computer Graphics, Digital Image Processing, Machine Learning, and Deep Learning).
 
 ## Internships
 
@@ -23,7 +23,7 @@
 ### Full-Stack Developer Intern | Jinan, China: [**Pansoft Co., Limited**](https://www.pansoft.com/contents/en/) *Jul 2023 - Oct 2023 (3 mo)*
 
 1. **ML**: Expanded the ERP form classification model from 5 to 15 categories; addressed severe class imbalance (minority classes less than 100 samples, others in the thousands) using **SMOTE** oversampling, raising recall from 20% to 80%.
-1. **Backend, Architecture, Performance**: Helped identify slow report generation (profiling, tracing) and contributed to designing solutions of **SQL and ORM optimization**, and **connection pooling**.
+1. **Backend, Architecture, Performance**: Helped identify (profiling, tracing) slow report generation and contributed to designing solutions of **SQL and ORM optimization**, and **connection pooling**.
 
 ## Projects
 
