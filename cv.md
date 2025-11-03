@@ -16,6 +16,10 @@
 
 ## Internships
 
+### Software Engineer Intern | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Present*
+1. **Frontend**: **React.js**
+2. **Backend**: **Nest.js**, **PHP**
+
 ### Car Innovation Intern | Beijing, China: [**Volkswagen Group, Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *Oct 2023 - Jun 2024 (8 mo)*
 1. **Backend, DevOps**: Built a centralized **RESTful API service** (**python-can** and **FastAPI**) standardizing **CAN signal** read and write workflows, replacing redundant team-specific hardware and enabling unified vehicle bus data access.
 1. **Embedded**: Contributed to the development of a **voice control system** on **embedded Linux** (ARM Cortex-A53 SBC), integrating a **microphone array** and **CAN bus** communication.

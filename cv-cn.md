@@ -14,6 +14,10 @@
 
 ## 实习经历
 
+### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
+1. **前端**: **React.js**
+2. **后端**: **Nest.js**, **PHP**
+
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
 1. **后端，DevOps**：使用 **python-can** 与 **FastAPI** 开发集中式 **RESTful API 服务**，标准化 **CAN 信号**读写流程，替代各团队冗余硬件部署，实现车辆总线数据统一访问。
