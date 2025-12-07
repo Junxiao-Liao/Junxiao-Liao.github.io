@@ -17,7 +17,7 @@
 ## Internships
 
 ### Software Engineer Intern | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Present*
-1. **Backend**: **Nest.js**, **Node.js**. Implemented **Microservices**, provided **GraphQL** services through **Apollo Server**, and used **gRPC** for internal microservices communication.
+1. **Backend**: **Nest.js**, **Node.js**. Implemented **Microservices**, provided **GraphQL** services through **Apollo Server**, and used **gRPC** for microservices internal communication.
 2. **Frontend**: **React**, **Apollo Client**, **Redux**. UI development.
 3. **Legacy System**: **PHP (CodeIgniter)**.
 

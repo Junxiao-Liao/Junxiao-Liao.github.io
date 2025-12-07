@@ -15,8 +15,9 @@
 ## 实习经历
 
 ### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
-1. **前端**: **React.js**
-2. **后端**: **Nest.js**, **PHP**
+1. **后端**: **Nest.js**, **Node.js**. 开发**微服务**，通过**Apollo Server**提供**GraphQL**服务，并使用**gRPC**进行微服务内部通信。
+2. **前端**: **React**, **Apollo Client**, **Redux**. UI开发。
+3. **遗留系统**: **PHP (CodeIgniter)**。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
