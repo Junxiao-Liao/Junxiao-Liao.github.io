@@ -37,7 +37,7 @@
 1. **计算机视觉，NLP**：集成 **RapidOCR** 提取文档文本；使用 **multilingual-e5-large-instruct** 进行文本嵌入。
 1. **向量检索，分类**：基于 **pgvector** 扩展实现向量相似度检索与文档分类。
 
-### [基于 Electron 的编程挑战平台](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
+### [基于 Electron 的编程挑战平台](https://github.com/Junxiao-Liao/Electron-Based-Coding-Challenge-Platform)
 1. **桌面端、全栈**：构建了一个桌面编程挑战应用（**Electron.js**、**React.js**、**Node.js、TSOA、Express.js、Prisma、SQLite**）。
 1. **评测引擎**：实现支持在本地针对任意编程语言运行测试用例的代码执行引擎。
 

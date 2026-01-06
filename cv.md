@@ -38,7 +38,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. **Computer Vision, NLP**: Integrated **RapidOCR** to extract document text; used **multilingual-e5-large-instruct** for text embedding.
 1. **Vector DB, Recommendation System**: Implemented vector similarity search and document classification based on the **pgvector** extension.
 
-### [Electron-Based Coding Challenge Platform](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
+### [Electron-Based Coding Challenge Platform](https://github.com/Junxiao-Liao/Electron-Based-Coding-Challenge-Platform)
 1. **Desktop, Full-Stack**: Built a desktop coding challenge app (**Electron.js**, **React.js**, **Node.js, TSOA, Express.js, Prisma, SQLite**).
 1. **Judge Engine**: Implemented a local execution engine supporting any programming languages over test cases.
 
