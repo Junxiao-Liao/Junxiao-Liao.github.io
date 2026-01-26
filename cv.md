@@ -42,9 +42,9 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 1. **Desktop, Full-Stack**: Built a desktop coding challenge app (**Electron.js**, **React.js**, **Node.js, TSOA, Express.js, Prisma, SQLite**).
 1. **Judge Engine**: Implemented a local execution engine supporting any programming languages over test cases.
 
-### [Distributed Systems Assignments](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
-1. **Total Order Multicast Middleware**: Implemented distributed middleware in **C#** using a timestamp-based propose/agree protocol.
-1. **HTTP Server**: Built a **C# backend framework** (simulating ASP.NET minimal API) using raw Socket, implementing HTTP request parsing, and a custom thread pool, without external libraries.
+### [WASM-Based Image Stitching Web App](https://github.com/Junxiao-Liao/Merge-Images-Web)
+1. **Frontend**: Built a static web application using **SvelteKit 5** and **Svelte 5 Runes** with **Tailwind CSS v4**.
+1. **WASM**: Engineered a **Rust** crate compiled to **WebAssembly** for client-side image processing.
 
 ## Skills
 
