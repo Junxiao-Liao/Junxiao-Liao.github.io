@@ -18,6 +18,7 @@
 1. **后端**: **Nest.js**, **Node.js**. 开发**微服务**，通过**Apollo Server**提供**GraphQL**服务，并使用**gRPC**进行微服务内部通信。
 2. **前端**: **React**, **Apollo Client**, **Redux**. UI开发。
 3. **遗留系统**: **PHP (CodeIgniter)**。
+4. **Atlassian** 套件：使用 **Jira** 进行任务追踪，使用 **Bitbucket** 管理 Git 仓库与 CI/CD 流水线，使用 **Confluence** 进行文档沉淀。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
