@@ -42,9 +42,9 @@
 1. **桌面端、全栈**：构建了一个桌面编程挑战应用（**Electron.js**、**React.js**、**Node.js、TSOA、Express.js、Prisma、SQLite**）。
 1. **评测引擎**：实现支持在本地针对任意编程语言运行测试用例的代码执行引擎。
 
-### [分布式系统课程作业](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)
-1. **全序多播（Total Order Multicast）中间件**：使用 **C#** 实现基于时间戳的提议 / 协商协议。
-2. **HTTP 服务器**：基于原始 Socket 构建类 **ASP.NET Minimal API** 的后端框架，实现 HTTP 解析与自定义线程池，无外部依赖。
+### [基于 WASM 的图片拼接网页应用](https://github.com/Junxiao-Liao/Merge-Images-Web)
+1. **前端**: 使用**SvelteKit 5**和**Svelte 5 Runes**搭建了静态网页应用，并结合**Tailwind CSS v4**进行样式设计。
+1. **WASM**: 开发了一个用**Rust**编写的crate，并编译为**WebAssembly**，用于客户端图像处理。
 
 ## 技能
 
