@@ -54,6 +54,6 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 - **Frontend**: React, Redux, Apollo Client
 - **Databases and Storage**: PostgreSQL, MySQL, SQLite; MongoDB, Redis; MinIO
 - **Message Queue**: RabbitMQ, NATS, Beanstalk
-- **Machine Learning and Vector DB**: scikit-learn, PyTorch, Transformers; Vector DB
+- **AI / Machine Learning**: scikit-learn, PyTorch, Transformers; Vector DB
 - **DevOps and Tooling**: Git, Docker, CI/CD (GitHub Actions, Bitbucket Pipelines); Jira, Bitbucket, Confluence
 - **Systems and Embedded**: Linux (POSIX, Bash, systemd); CAN bus

@@ -53,6 +53,6 @@
 - **前端**：React、Redux、Apollo Client
 - **数据库与存储**：PostgreSQL、MySQL、SQLite；MongoDB、Redis；MinIO
 - **消息队列**：RabbitMQ、NATS、Beanstalk
-- **机器学习与向量数据库**：scikit-learn、PyTorch、Transformers；向量数据库
+- **AI / 机器学习**：scikit-learn、PyTorch、Transformers；向量数据库
 - **DevOps 与工具链**：Git、Docker、CI/CD（GitHub Actions、Bitbucket Pipelines）；Jira、Bitbucket、Confluence
 - **系统与嵌入式**：Linux（POSIX、Bash、systemd）；CAN 总线
