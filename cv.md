@@ -52,7 +52,7 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 - **Languages**: Python, TypeScript, PHP; C#, Java, Kotlin; F#, Scala, Racket, Elixir; C++, Rust
 - **Backend**: REST, GraphQL, gRPC; NestJS, CodeIgniter, FastAPI, ASP.NET; TypeORM, SQLAlchemy, Prisma
 - **Frontend**: React, Redux, Apollo Client
-- **Databases and Storage**: PostgreSQL, MySQL; MongoDB, Redis; MinIO
+- **Databases and Storage**: PostgreSQL, MySQL, SQLite; MongoDB, Redis; MinIO
 - **Message Queue**: RabbitMQ, NATS, Beanstalk
 - **Machine Learning and Vector DB**: scikit-learn, PyTorch, Transformers; Vector DB
 - **DevOps and Tooling**: Git, Docker, CI/CD (GitHub Actions, Bitbucket Pipelines); Jira, Bitbucket, Confluence

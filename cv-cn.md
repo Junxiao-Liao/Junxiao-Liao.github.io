@@ -51,7 +51,7 @@
 - **编程语言**：Python、TypeScript、PHP；C#、Java、Kotlin；F#、Scala、Racket、Elixir；C++、Rust
 - **后端**：REST、GraphQL、gRPC；NestJS、CodeIgniter、FastAPI、ASP.NET；TypeORM、SQLAlchemy、Prisma
 - **前端**：React、Redux、Apollo Client
-- **数据库与存储**：PostgreSQL、MySQL；MongoDB、Redis；MinIO
+- **数据库与存储**：PostgreSQL、MySQL、SQLite；MongoDB、Redis；MinIO
 - **消息队列**：RabbitMQ、NATS、Beanstalk
 - **机器学习与向量数据库**：scikit-learn、PyTorch、Transformers；向量数据库
 - **DevOps 与工具链**：Git、Docker、CI/CD（GitHub Actions、Bitbucket Pipelines）；Jira、Bitbucket、Confluence
