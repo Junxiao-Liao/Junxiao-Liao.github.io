@@ -49,11 +49,11 @@ Title: *Design and Implementation of an Automatic Document Recognition and Class
 
 ## Skills
 
-- **Programming Languages**:
-    - Proficient: C#, Python, JavaScript/TypeScript; C++
-    - Academic Experience: Java, Kotlin, Flutter; Rust; F#, Scala, Racket, Elixir
-- **Machine Learning**: scikit-learn, PyTorch, Transformers
-- **DevOps**: Git, containers, GitHub Actions
-- **Operating System**: POSIX, Bash, systemd
-- **Middleware**: Web Server, MQ, RPC
-- **Database**: SQL, NoSQL, MinIO
+- **Languages**: Python, TypeScript, PHP; C#, Java, Kotlin; F#, Scala, Racket, Elixir; C++, Rust
+- **Backend**: REST, GraphQL, gRPC; NestJS, CodeIgniter, FastAPI, ASP.NET; TypeORM, SQLAlchemy, Prisma
+- **Frontend**: React, Redux, Apollo Client
+- **Databases and Storage**: PostgreSQL, MySQL; MongoDB, Redis; MinIO
+- **Message Queue**: RabbitMQ, NATS, Beanstalk
+- **Machine Learning and Vector DB**: scikit-learn, PyTorch, Transformers; Vector DB
+- **DevOps and Tooling**: Git, Docker, CI/CD (GitHub Actions, Bitbucket Pipelines); Jira, Bitbucket, Confluence
+- **Systems and Embedded**: Linux (POSIX, Bash, systemd); CAN bus
