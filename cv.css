@@ -37,6 +37,9 @@
 }
 
 @media print {
+    @page {
+        margin: 0;
+    }
     #language-selector {
         display: none;
     }
