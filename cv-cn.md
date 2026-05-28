@@ -19,6 +19,7 @@
 2. **前端**: **React**, **Apollo Client**, **Redux**. UI开发。
 3. **遗留系统**: **PHP (CodeIgniter)**。
 4. **Atlassian** 套件：使用 **Jira** 进行任务追踪，使用 **Bitbucket** 管理 Git 仓库与 CI/CD 流水线，使用 **Confluence** 进行文档沉淀。
+5. **AI Agent**：构建基于 **Python** 的 **LLM Agent**，使用 **Prefect** 编排工作流，通过 **FastAPI** 提供服务。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
@@ -32,19 +33,15 @@
 
 ## 项目经历
 
-### [本科毕业设计项目](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer)
-题目：*自动文档识别与分类系统的设计与实现*
-1. **全栈**：Web 应用，后端（**FastAPI**, **PostgreSQL**）、前端（**React.js**, **Antd**）、对象存储（**MinIO**）。
-1. **计算机视觉，NLP**：集成 **RapidOCR** 提取文档文本；使用 **multilingual-e5-large-instruct** 进行文本嵌入。
-1. **向量检索，分类**：基于 **pgvector** 扩展实现向量相似度检索与文档分类。
-
-### [基于 Electron 的编程挑战平台](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
-1. **桌面端、全栈**：构建了一个桌面编程挑战应用（**Electron.js**、**React.js**、**Node.js、TSOA、Express.js、Prisma、SQLite**）。
-1. **评测引擎**：实现支持在本地针对任意编程语言运行测试用例的代码执行引擎。
-
-### [基于 WASM 的图片拼接网页应用](https://github.com/Junxiao-Liao/Merge-Images-Web)
-1. **前端**: 使用**SvelteKit 5**和**Svelte 5 Runes**搭建了静态网页应用，并结合**Tailwind CSS v4**进行样式设计。
-1. **WASM**: 开发了一个用**Rust**编写的crate，并编译为**WebAssembly**，用于客户端图像处理。
+| 项目 | 链接 | 简介 |
+|---|---|---|
+| 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | *自动文档识别与分类系统的设计与实现* |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 基于Rust编译为WebAssembly的客户端图片拼接 |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 基于Cloudflare Workers的自托管多租户音乐流媒体平台 |
+| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | 支持lambda、递归与列表的最小Scheme语言解释器 |
+| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 基于C++与Qt 6的五子棋桌面游戏，支持AI对战 |
+| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | 基于ADB的Android与PC端实时Socket通信 |
+| Stock-Price-Prediction-Based-on-ARIMA-Model | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | 基于ARIMA模型与网格搜索优化的股票价格预测 |
 
 ## 技能
 

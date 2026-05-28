@@ -34,19 +34,15 @@
 
 ## Projects
 
-### [Undergraduate Thesis Project](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer)
-Title: *Design and Implementation of an Automatic Document Recognition and Classification System*
-1. **Full-Stack**: Web application, backend (**FastAPI**, **PostgreSQL**), frontend (**React.js**, **Antd**), object storage (**MinIO**).
-1. **Computer Vision, NLP**: Integrated **RapidOCR** to extract document text; used **multilingual-e5-large-instruct** for text embedding.
-1. **Vector DB, Recommendation System**: Implemented vector similarity search and document classification based on the **pgvector** extension.
-
-### [Electron-Based Coding Challenge Platform](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/732/1253)
-1. **Desktop, Full-Stack**: Built a desktop coding challenge app (**Electron.js**, **React.js**, **Node.js, TSOA, Express.js, Prisma, SQLite**).
-1. **Judge Engine**: Implemented a local execution engine supporting any programming languages over test cases.
-
-### [WASM-Based Image Stitching Web App](https://github.com/Junxiao-Liao/Merge-Images-Web)
-1. **Frontend**: Built a static web application using **SvelteKit 5** and **Svelte 5 Runes** with **Tailwind CSS v4**.
-1. **WASM**: Engineered a **Rust** crate compiled to **WebAssembly** for client-side image processing.
+| Project | Link | Description |
+|---|---|---|
+| Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | *Design and Implementation of an Automatic Document Recognition and Classification System* |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching via Rust compiled to WebAssembly |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Self-hosted multi-tenant music streaming platform on Cloudflare Workers |
+| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Minimal Scheme interpreter supporting lambda, recursion, and lists |
+| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku desktop game with AI opponent (heuristic evaluation) |
+| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Real-time socket communication between Android and PC via ADB |
+| Stock-Price-Prediction-Based-on-ARIMA-Model | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | Stock price forecasting using ARIMA model with grid search optimization |
 
 ## Skills
 
