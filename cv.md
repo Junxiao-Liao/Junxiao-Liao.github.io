@@ -2,7 +2,7 @@
 
 **Email:** junxiao.liao@outlook.com; [**GitHub**/Junxiao-Liao](https://github.com/Junxiao-Liao); [**LinkedIn**/in/junxiao-liao](https://www.linkedin.com/in/junxiao-liao/)
 
-**Work Rights (NZ)**: Available for full-time work in NZ from Nov 2025, pending a 3-year Post-Study Work Visa upon graduation.
+**Work Rights (NZ)**: Post-Study Work Visa (Open), valid 28 May 2026 to 28 May 2029.
 
 ## Education
 
