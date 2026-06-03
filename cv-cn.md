@@ -35,14 +35,14 @@
 
 | 项目 | 链接 | 简介 | 技术栈 |
 |---|---|---|---|
-| 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | 全栈文档OCR分类系统：RapidOCR文字提取，multilingual-e5-large-instruct语义嵌入，pgvector相似度推荐分类 | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
-| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 轻量级HTTP/1.1框架：基于原生TCP Socket构建，自定义线程池(SemaphoreSlim)，MapGet路由注册，基于锁的并发集合 | C#, .NET 8, TCP Sockets |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 自托管多租户音乐流媒体平台：音频上传/流媒体播放，LRC同步歌词，持久化播放队列，拖拽歌单管理，后台管理，中英文国际化 | Cloudflare Workers, Hono v4, Drizzle ORM, D1 (SQLite), R2, Svelte 5, TanStack Query v5 |
-| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 五子棋(19×19)桌面游戏：基于连续棋子评分的启发式AI对手，DFS五连检测，悔棋/重开 | C++, Qt 6 |
-| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | 最小Scheme解释器：递归下降解析器+树遍历求值器，支持lambda闭包、词法作用域、cons/car/cdr列表操作、尾位置求值 | TypeScript |
-| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 纯客户端图片拼接引擎：Rust/WASM核心运行于Web Worker，NCC模板匹配智能重叠检测，EXIF方向归一化，拖拽排序 | Rust, WebAssembly, SvelteKit 5, Tailwind CSS v4, Vite 7 |
-| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | 双向实时Socket通信：Android设备作为TCP服务端，PC通过ADB隧道(USB/WiFi)连接，提供Java与Python双版本PC端 | Java (Android), Python, Java (PC), ADB |
-| Stock-Price-Prediction-Based-on-ARIMA-Model | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | 时间序列股票预测：Selenium历史数据爬取，ADF平稳性检验，ARIMA(p,d,q)网格搜索MSE优化，残差正态性分析 | Python, pandas, statsmodels, Selenium, Jupyter |
+| 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | 文档OCR分类: RapidOCR + 语义嵌入 + pgvector推荐 | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
+| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 原生TCP构建的HTTP/1.1框架: 线程池、MapGet路由、并发集合 | C#, .NET 8 |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Cloudflare多租户音乐流媒体: 音频/LRC上传、歌单、队列、后台管理 | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 五子棋(19x19)启发式AI: 棋子评分、DFS五连检测 | C++, Qt 6 |
+| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Scheme解释器: 递归下降解析、lambda闭包、词法作用域 | TypeScript |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 客户端图片拼接: Rust/WASM在Web Worker，NCC重叠检测 | Rust, WASM, SvelteKit 5, Tailwind v4 |
+| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Android-PC通过ADB的Socket通信: TCP服务端，Java+Python双客户端 | Java, Python, ADB |
+| 股票ARIMA预测 | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | ARIMA(p,d,q)网格搜索预测: Selenium爬取、ADF检验、残差分析 | Python, pandas, statsmodels |
 
 ## 技能
 

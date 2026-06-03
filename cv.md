@@ -36,14 +36,14 @@
 
 | Project | Link | Description | Tech Stack |
 |---|---|---|---|
-| Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | Full-stack document OCR classification system: RapidOCR text extraction, multilingual-e5-large-instruct semantic embedding, and pgvector similarity-based category recommendation | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
-| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | Lightweight HTTP/1.1 server framework built from raw TCP sockets with custom thread pool (SemaphoreSlim), MapGet-style route registration, and lock-based concurrent collections | C#, .NET 8, TCP Sockets |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Self-hosted multi-tenant music streaming platform: audio upload/stream with LRC synced lyrics, persistent per-user playback queue, drag-and-drop playlists, admin panel, i18n (EN/ZH) | Cloudflare Workers, Hono v4, Drizzle ORM, D1 (SQLite), R2, Svelte 5, TanStack Query v5 |
-| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku (19×19) desktop game with heuristic AI opponent using consecutive-stone scoring, DFS five-in-a-row detection, undo/restart | C++, Qt 6 |
-| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Minimal Scheme interpreter with recursive descent parser and tree-walking evaluator: lambda closures, lexical scoping, cons/car/cdr list operations, tail-position evaluation | TypeScript |
-| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching engine: Rust/WASM core in Web Workers, NCC template matching for smart overlap detection, EXIF orientation normalization, drag-and-drop reordering UI | Rust, WebAssembly, SvelteKit 5, Tailwind CSS v4, Vite 7 |
-| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Bidirectional real-time socket communication: Android device as TCP server, PC client connected via ADB tunnel (USB/WiFi), dual PC-side implementations (Java + Python) | Java (Android), Python, Java (PC), ADB |
-| Stock-Price-Prediction-Based-on-ARIMA-Model | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | Time-series stock forecasting: Selenium-based historical data crawling, ADF stationarity testing, ARIMA(p,d,q) grid search with MSE evaluation, residual normality analysis | Python, pandas, statsmodels, Selenium, Jupyter |
+| Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | Document OCR & classification: RapidOCR + semantic embedding + pgvector recommendation | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
+| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | HTTP/1.1 framework from raw TCP: custom thread pool, MapGet routing, lock-based collections | C#, .NET 8 |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Multi-tenant music streaming on Cloudflare: audio/LRC upload, playlists, queue, admin panel | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku (19x19) with heuristic AI: consecutive-stone scoring, DFS win detection | C++, Qt 6 |
+| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Scheme interpreter: recursive descent parser, lambda closures, lexical scoping | TypeScript |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching: Rust/WASM in Web Worker, NCC overlap detection | Rust, WASM, SvelteKit 5, Tailwind v4 |
+| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Android-PC socket via ADB tunnel: Android TCP server, dual PC clients (Java + Python) | Java, Python, ADB |
+| ARIMA Stock Forecast | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | ARIMA(p,d,q) grid search forecasting: Selenium crawling, ADF test, residual analysis | Python, pandas, statsmodels |
 
 ## Skills
 
