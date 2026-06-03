@@ -34,15 +34,16 @@
 
 ## Projects
 
-| Project | Link | Description |
-|---|---|---|
-| Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | *Design and Implementation of an Automatic Document Recognition and Classification System* |
-| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching via Rust compiled to WebAssembly |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Self-hosted multi-tenant music streaming platform on Cloudflare Workers |
-| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Minimal Scheme interpreter supporting lambda, recursion, and lists |
-| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku desktop game with AI opponent (heuristic evaluation) |
-| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Real-time socket communication between Android and PC via ADB |
-| Stock-Price-Prediction-Based-on-ARIMA-Model | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | Stock price forecasting using ARIMA model with grid search optimization |
+| Project | Link | Description | Tech Stack |
+|---|---|---|---|---|
+| Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | Full-stack document OCR classification system: RapidOCR text extraction, multilingual-e5-large-instruct semantic embedding, and pgvector similarity-based category recommendation | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
+| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | Lightweight HTTP/1.1 server framework built from raw TCP sockets with custom thread pool (SemaphoreSlim), MapGet-style route registration, and lock-based concurrent collections | C#, .NET 8, TCP Sockets |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Self-hosted multi-tenant music streaming platform: audio upload/stream with LRC synced lyrics, persistent per-user playback queue, drag-and-drop playlists, admin panel, i18n (EN/ZH) | Cloudflare Workers, Hono v4, Drizzle ORM, D1 (SQLite), R2, Svelte 5, TanStack Query v5 |
+| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku (19×19) desktop game with heuristic AI opponent using consecutive-stone scoring, DFS five-in-a-row detection, undo/restart | C++, Qt 6 |
+| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Minimal Scheme interpreter with recursive descent parser and tree-walking evaluator: lambda closures, lexical scoping, cons/car/cdr list operations, tail-position evaluation | TypeScript |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching engine: Rust/WASM core in Web Workers, NCC template matching for smart overlap detection, EXIF orientation normalization, drag-and-drop reordering UI | Rust, WebAssembly, SvelteKit 5, Tailwind CSS v4, Vite 7 |
+| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Bidirectional real-time socket communication: Android device as TCP server, PC client connected via ADB tunnel (USB/WiFi), dual PC-side implementations (Java + Python) | Java (Android), Python, Java (PC), ADB |
+| Stock-Price-Prediction-Based-on-ARIMA-Model | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | Time-series stock forecasting: Selenium-based historical data crawling, ADF stationarity testing, ARIMA(p,d,q) grid search with MSE evaluation, residual normality analysis | Python, pandas, statsmodels, Selenium, Jupyter |
 
 ## Skills
 
