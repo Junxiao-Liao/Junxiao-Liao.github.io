@@ -43,6 +43,9 @@
     #language-selector {
         display: none;
     }
+    body {
+        padding-top: 2mm;
+    }
 }
 
 /* replace invalid '&' rule with 'body' to ensure styles apply for printing */
