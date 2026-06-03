@@ -34,7 +34,7 @@
 ## 项目经历
 
 | 项目 | 链接 | 简介 | 技术栈 |
-|---|---|---|---|---|
+|---|---|---|---|
 | 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | 全栈文档OCR分类系统：RapidOCR文字提取，multilingual-e5-large-instruct语义嵌入，pgvector相似度推荐分类 | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
 | SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 轻量级HTTP/1.1框架：基于原生TCP Socket构建，自定义线程池(SemaphoreSlim)，MapGet路由注册，基于锁的并发集合 | C#, .NET 8, TCP Sockets |
 | r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 自托管多租户音乐流媒体平台：音频上传/流媒体播放，LRC同步歌词，持久化播放队列，拖拽歌单管理，后台管理，中英文国际化 | Cloudflare Workers, Hono v4, Drizzle ORM, D1 (SQLite), R2, Svelte 5, TanStack Query v5 |

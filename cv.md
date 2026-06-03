@@ -35,7 +35,7 @@
 ## Projects
 
 | Project | Link | Description | Tech Stack |
-|---|---|---|---|---|
+|---|---|---|---|
 | Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | Full-stack document OCR classification system: RapidOCR text extraction, multilingual-e5-large-instruct semantic embedding, and pgvector similarity-based category recommendation | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
 | SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | Lightweight HTTP/1.1 server framework built from raw TCP sockets with custom thread pool (SemaphoreSlim), MapGet-style route registration, and lock-based concurrent collections | C#, .NET 8, TCP Sockets |
 | r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Self-hosted multi-tenant music streaming platform: audio upload/stream with LRC synced lyrics, persistent per-user playback queue, drag-and-drop playlists, admin panel, i18n (EN/ZH) | Cloudflare Workers, Hono v4, Drizzle ORM, D1 (SQLite), R2, Svelte 5, TanStack Query v5 |
