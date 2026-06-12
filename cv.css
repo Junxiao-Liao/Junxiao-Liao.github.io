@@ -44,7 +44,7 @@
         display: none;
     }
     body {
-        padding-top: 2mm;
+        padding: 2mm;
     }
 }
 
@@ -183,6 +183,25 @@ h2 {
     font-weight: 600;
     border-bottom: 1px solid #eee;
     margin-top: 1.05rem;
+}
+
+/* Table styling — light grey internal borders */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0.5rem 0 0.75rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.35rem 0.5rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f7f7f7;
+    font-weight: 600;
 }
 
 h3 {
