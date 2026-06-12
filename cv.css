@@ -47,15 +47,22 @@
         padding: 2mm;
     }
 
-    /* force table borders to survive print (browsers drop light borders by default) */
+    /* force table borders to survive print —
+       border-collapse: separate avoids vertical borders vanishing in PDF engines */
     table {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
-        border-collapse: collapse;
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 1px solid #bbb;
     }
     th, td {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
+        border: 1px solid #bbb;
+        padding: 0.35rem 0.5rem;
+        text-align: left;
+        vertical-align: top;
     }
 }
 
@@ -196,24 +203,26 @@ h2 {
     margin-top: 1.05rem;
 }
 
-/* Table styling — light grey internal borders */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 0.5rem 0 0.75rem;
-    border: 1px solid #ddd;
-}
+/* Table styling — light grey internal borders (screen only to avoid overriding print) */
+@media screen {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0.5rem 0 0.75rem;
+        border: 1px solid #ddd;
+    }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 0.35rem 0.5rem;
-    text-align: left;
-    vertical-align: top;
-}
+    th, td {
+        border: 1px solid #ddd;
+        padding: 0.35rem 0.5rem;
+        text-align: left;
+        vertical-align: top;
+    }
 
-th {
-    background-color: #f7f7f7;
-    font-weight: 600;
+    th {
+        background-color: #f7f7f7;
+        font-weight: 600;
+    }
 }
 
 h3 {
