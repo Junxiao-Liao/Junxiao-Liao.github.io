@@ -17,9 +17,9 @@
 ### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
 
 **文档处理**：企业平台（**NestJS**、**React**、**PHP/CodeIgniter**、**GraphQL**、**gRPC**）
-1. 将遗留 PHP (CodeIgniter, Smarty) 页面（公告、用户组、分配用户）重写为 **React** 前端、**NestJS GraphQL** 后端与 **gRPC 微服务**。
-2. 为**文档提取界面**开发功能：知识源级别指示器、行数边界显示、文档信息面板。
-3. 全栈功能与修复：FTP 凭证安全、字段级权限控制、文档状态检查、仪表盘标准化。
+1. 将遗留 PHP (CodeIgniter, Smarty) 页面（公告、用户组、分配用户等）重写为 **React** 前端、**NestJS GraphQL** 后端与 **gRPC 微服务**。
+2. 为**文档提取界面**开发功能：工具提示指示器、行数边界显示、文档信息面板。
+3. 全栈功能与修复：凭证安全、权限系统、文档工作流、UI 标准化。
 
 **采购分析**：供应商数据采集（**Python**、**FastAPI**、**Prefect**、**React**）
 1. 构建**浏览器自动化 Agent** 用于网页供应商数据采集，集成至 **Prefect** 编排流水线。

@@ -19,9 +19,9 @@
 ### Software Engineer Intern | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Present*
 
 **Document Processing:** enterprise platform (**NestJS**, **React**, **PHP/CodeIgniter**, **GraphQL**, **gRPC**)
-1. Rewrote legacy **PHP** (CodeIgniter, Smarty) pages (Announcements, Groups, Assign Users) into **React** frontends with **NestJS GraphQL** backends and **gRPC microservices**.
-2. Built features for the **document extraction interface**: knowledge source level indicators, row boundary display, and document information panel.
-3. Delivered features and fixes across the stack: FTP credential security, field-level permission controls, document status gating, and dashboard standardization.
+1. Rewrote legacy **PHP** (CodeIgniter, Smarty) pages (Announcements, Groups, Assign Users, etc.) into **React** frontends with **NestJS GraphQL** backends and **gRPC microservices**.
+2. Built features for the **document extraction interface**: tooltip indicators, row boundary display, and document information panel.
+3. Delivered features and fixes across the stack: credential security, permission systems, document workflows, and UI standardization.
 
 **Procurement Analytics:** supplier data enrichment (**Python**, **FastAPI**, **Prefect**, **React**)
 1. Built a **browser automation agent** for web-based supplier data enrichment, integrated into **Prefect** orchestration pipelines.
