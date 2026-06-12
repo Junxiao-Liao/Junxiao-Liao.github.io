@@ -42,7 +42,7 @@
 |---|---|---|---|
 | Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | Document OCR & classification: RapidOCR + semantic embedding + pgvector recommendation | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
 | SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | HTTP/1.1 framework from raw TCP: custom thread pool, MapGet routing, lock-based collections | C#, .NET 8 |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Multi-tenant music streaming on Cloudflare: audio/LRC upload, playlists, queue, admin panel | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Full-stack serverless music streaming on Cloudflare Workers: multi-tenant auth, audio/LRC upload & streaming, playlists, queue, admin panel; global edge deployment | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
 | Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku (19x19) with heuristic AI: consecutive-stone scoring, DFS win detection | C++, Qt 6 |
 | Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Scheme interpreter: recursive descent parser, lambda closures, lexical scoping | TypeScript |
 | Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching: Rust/WASM in Web Worker, NCC overlap detection | Rust, WASM, SvelteKit 5, Tailwind v4 |
@@ -58,4 +58,5 @@
 - **Message Queue**: RabbitMQ, NATS, Beanstalk
 - **AI / Machine Learning**: scikit-learn, PyTorch, Transformers, Prefect; Vector DB
 - **DevOps and Tooling**: Git, Docker, CI/CD (GitHub Actions, Bitbucket Pipelines); Jira, Bitbucket, Confluence
+- **Cloud / Edge**: Cloudflare Workers, D1, R2, Queues; Serverless architecture
 - **Systems and Embedded**: Linux (POSIX, Bash, systemd); CAN bus

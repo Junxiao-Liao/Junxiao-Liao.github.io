@@ -41,7 +41,7 @@
 |---|---|---|---|
 | 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | 文档OCR分类: RapidOCR + 语义嵌入 + pgvector推荐 | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
 | SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 原生TCP构建的HTTP/1.1框架: 线程池、MapGet路由、并发集合 | C#, .NET 8 |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Cloudflare多租户音乐流媒体: 音频/LRC上传、歌单、队列、后台管理 | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 全栈无服务器音乐流媒体(Cloudflare Workers): 多租户认证、音频/LRC上传与播放、歌单、队列、后台管理；全球边缘部署 | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
 | Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 五子棋(19x19)启发式AI: 棋子评分、DFS五连检测 | C++, Qt 6 |
 | Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Scheme解释器: 递归下降解析、lambda闭包、词法作用域 | TypeScript |
 | Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 客户端图片拼接: Rust/WASM在Web Worker，NCC重叠检测 | Rust, WASM, SvelteKit 5, Tailwind v4 |
@@ -57,4 +57,5 @@
 - **消息队列**：RabbitMQ、NATS、Beanstalk
 - **AI / 机器学习**：scikit-learn、PyTorch、Transformers、Prefect；向量数据库
 - **DevOps 与工具链**：Git、Docker、CI/CD（GitHub Actions、Bitbucket Pipelines）；Jira、Bitbucket、Confluence
+- **云 / 边缘计算**：Cloudflare Workers、D1、R2、Queues；Serverless 架构
 - **系统与嵌入式**：Linux（POSIX、Bash、systemd）；CAN 总线
