@@ -1,4 +1,4 @@
-# 廖俊霄 Junxiao LIAO
+# 廖俊霄
 
 **邮箱：** junxiao.liao@outlook.com；[**GitHub**/Junxiao-Liao](https://github.com/Junxiao-Liao)；[**LinkedIn**/in/junxiao-liao](https://www.linkedin.com/in/junxiao-liao/)
 
@@ -6,30 +6,34 @@
 
 ### 硕士学位 | 新西兰奥克兰：[**奥克兰大学**](https://www.auckland.ac.nz) *2025年3月 - 2026年3月*
 
-**专业：信息技术（理学院）** - [并行与分布式计算](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253)、[安全](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/702/1253)、[海量数据算法](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/753/1255)、[高级计算机图形学](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/715/1255)
+**专业：信息技术（理学院）**
 
 ### 工学学士学位 | 中国济南：[**山东大学**](https://www.sdu.edu.cn/) *2020年9月 - 2024年6月*
 
-**专业：数字媒体技术（软件学院）** – 计算机科学基础（数学、数据结构、计算机组成原理、操作系统、计算机网络、数据库）和进阶课程（计算机图形学、数字图像处理、机器学习和深度学习）。
+**专业：数字媒体技术（软件学院）**，计算机科学基础与计算机图形学、机器学习、图像处理等进阶课程。
 
 ## 实习经历
 
 ### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
-1. **后端**: **Nest.js**, **Node.js**. 开发**微服务**，通过**Apollo Server**提供**GraphQL**服务，并使用**gRPC**进行微服务内部通信。
-2. **前端**: **React**, **Apollo Client**, **Redux**. UI开发。
-3. **遗留系统**: **PHP (CodeIgniter)**。
-4. **Atlassian** 套件：使用 **Jira** 进行任务追踪，使用 **Bitbucket** 管理 Git 仓库与 CI/CD 流水线，使用 **Confluence** 进行文档沉淀。
-5. **AI Agent**：构建基于 **Python** 的 **LLM Agent**，使用 **Prefect** 编排工作流，通过 **FastAPI** 提供服务。
+
+**文档处理**：企业平台（**NestJS**、**React**、**PHP/CodeIgniter**、**GraphQL**、**gRPC**）
+1. 将遗留 PHP (CodeIgniter, Smarty) 页面（公告、用户组、分配用户）重写为 **React** 前端、**NestJS GraphQL** 后端与 **gRPC 微服务**。
+2. 为**文档提取界面**开发功能：知识源级别指示器、行数边界显示、文档信息面板。
+3. 全栈功能与修复：FTP 凭证安全、字段级权限控制、文档状态检查、仪表盘标准化。
+
+**采购分析**：供应商数据采集（**Python**、**FastAPI**、**Prefect**、**React**）
+1. 构建**浏览器自动化 Agent** 用于网页供应商数据采集，集成至 **Prefect** 编排流水线。
+2. 将单体 **FastAPI** 后端重构为基于功能模块的目录结构。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
 1. **后端，DevOps**：使用 **python-can** 与 **FastAPI** 开发集中式 **RESTful API 服务**，标准化 **CAN 信号**读写流程，替代各团队冗余硬件部署，实现车辆总线数据统一访问。
-1. **嵌入式**：参与开发运行 **嵌入式 Linux** 的 **语音控制系统**（ARM Cortex-A53 开发板），集成 **麦克风阵列** 与 **CAN 总线通信**。
+1. **嵌入式**：为运行 **嵌入式 Linux** 的 **语音控制系统**（ARM Cortex-A53 开发板）开发组件，集成 **麦克风阵列** 与 **CAN 总线通信**。
 
 ### 全栈开发实习生 | 中国济南：[**普联软件股份有限公司**](https://www.pansoft.com) *2023年7月 - 2023年10月（3个月）*
 
 1. **机器学习**：将 ERP 表单分类模型由 5 类扩展至 15 类；针对严重类别不平衡（少数类别小于 100 样本，其他达数千）使用 **SMOTE** 过采样，将召回率由 20% 提升至 80%。
-1. **后端，架构，性能**：参与定位（性能分析、追踪）报表生成慢问题，并参与设计 **SQL 与 ORM 优化**、**连接池** 等方案。
+1. **后端，架构，性能**：通过性能分析与追踪定位报表生成瓶颈；设计 **SQL 与 ORM 优化** 与 **连接池** 方案。
 
 ## 项目经历
 

@@ -1,4 +1,4 @@
-# Junxiao LIAO 廖俊霄
+# Junxiao LIAO
 
 **Email:** junxiao.liao@outlook.com; [**GitHub**/Junxiao-Liao](https://github.com/Junxiao-Liao); [**LinkedIn**/in/junxiao-liao](https://www.linkedin.com/in/junxiao-liao/)
 
@@ -8,29 +8,33 @@
 
 ### Master's Degree | Auckland, New Zealand: [**University of Auckland**](https://www.auckland.ac.nz) *Mar 2025 - Mar 2026*
 
-**Major: Information Technology (Faculty of Science)** – [Parallel and Distributed Computing](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/711/1253), [Security](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/702/1253), [Algorithms for Massive Data](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/753/1255), [Advanced Computer Graphics](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/715/1255)
+**Major: Information Technology (Faculty of Science)**
 
 ### Bachelor's Degree in Engineering | Jinan, China: [**Shandong University**](https://www.sdu.edu.cn/) *Sep 2020 - Jun 2024*
 
-**Major: Digital Media Technology (School of Software)** – Computer science fundamentals (Mathematics, Data Structures, Computer Architecture, Operating Systems, Computer Networks, Databases) and advanced topics (Computer Graphics, Digital Image Processing, Machine Learning, and Deep Learning).
+**Major: Digital Media Technology (School of Software)**, computer science fundamentals and advanced topics in graphics, machine learning, and image processing.
 
 ## Internships
 
 ### Software Engineer Intern | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Present*
-1. **Backend**: **Nest.js**, **Node.js**. Implemented **Microservices**, provided **GraphQL** services through **Apollo Server**, and used **gRPC** for microservices internal communication.
-2. **Frontend**: **React**, **Apollo Client**, **Redux**. UI development.
-3. **Legacy System**: **PHP (CodeIgniter)**.
-4. **Atlassian** suite: **Jira** for ticket tracking, **Bitbucket** for Git repositories and CI/CD pipelines, and **Confluence** for documentation.
-5. **AI Agent**: Built **Python**-based **LLM agents**, orchestrating workflows with **Prefect** and serving via **FastAPI**.
+
+**Document Processing:** enterprise platform (**NestJS**, **React**, **PHP/CodeIgniter**, **GraphQL**, **gRPC**)
+1. Rewrote legacy **PHP** (CodeIgniter, Smarty) pages (Announcements, Groups, Assign Users) into **React** frontends with **NestJS GraphQL** backends and **gRPC microservices**.
+2. Built features for the **document extraction interface**: knowledge source level indicators, row boundary display, and document information panel.
+3. Delivered features and fixes across the stack: FTP credential security, field-level permission controls, document status gating, and dashboard standardization.
+
+**Procurement Analytics:** supplier data enrichment (**Python**, **FastAPI**, **Prefect**, **React**)
+1. Built a **browser automation agent** for web-based supplier data enrichment, integrated into **Prefect** orchestration pipelines.
+2. Refactored monolithic **FastAPI** backend into feature-based modules.
 
 ### Car Innovation Intern | Beijing, China: [**Volkswagen Group, Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *Oct 2023 - Jun 2024 (8 mo)*
 1. **Backend, DevOps**: Built a centralized **RESTful API service** (**python-can** and **FastAPI**) standardizing **CAN signal** read and write workflows, replacing redundant team-specific hardware and enabling unified vehicle bus data access.
-1. **Embedded**: Contributed to the development of a **voice control system** on **embedded Linux** (ARM Cortex-A53 SBC), integrating a **microphone array** and **CAN bus** communication.
+1. **Embedded**: Developed components for a **voice control system** on **embedded Linux** (ARM Cortex-A53 SBC), integrating a **microphone array** and **CAN bus** communication.
 
 ### Full-Stack Developer Intern | Jinan, China: [**Pansoft Co., Limited**](https://www.pansoft.com/contents/en/) *Jul 2023 - Oct 2023 (3 mo)*
 
 1. **ML**: Expanded the ERP form classification model from 5 to 15 categories; addressed severe class imbalance (minority classes less than 100 samples, others in the thousands) using **SMOTE** oversampling, raising recall from 20% to 80%.
-1. **Backend, Architecture, Performance**: Helped identify (profiling, tracing) slow report generation and contributed to designing solutions of **SQL and ORM optimization**, and **connection pooling**.
+1. **Backend, Architecture, Performance**: Profiled and traced slow report generation; designed **SQL and ORM optimization** and **connection pooling** solutions.
 
 ## Projects
 
