@@ -51,11 +51,11 @@
 
 ## Skills
 
-- **Languages**: Python, TypeScript, PHP; C#, Java, Kotlin; F#, Scala, Racket, Elixir; C++, Rust
+- **Languages**: Python, TypeScript, PHP; C#, Java, Kotlin; C++, Rust. Familiar: F#, Scala, Racket, Elixir
 - **Backend**: REST, GraphQL, gRPC; NestJS, CodeIgniter, FastAPI, ASP.NET; TypeORM, SQLAlchemy, Prisma
-- **Frontend**: React, Redux, Apollo Client
+- **Frontend**: React, Redux, Apollo Client; Svelte, MUI, Tailwind
 - **Databases and Storage**: PostgreSQL, MySQL, SQLite; MongoDB, Redis; MinIO
 - **Message Queue**: RabbitMQ, NATS, Beanstalk
-- **AI / Machine Learning**: scikit-learn, PyTorch, Transformers; Vector DB
+- **AI / Machine Learning**: scikit-learn, PyTorch, Transformers, Prefect; Vector DB
 - **DevOps and Tooling**: Git, Docker, CI/CD (GitHub Actions, Bitbucket Pipelines); Jira, Bitbucket, Confluence
 - **Systems and Embedded**: Linux (POSIX, Bash, systemd); CAN bus
