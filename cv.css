@@ -48,18 +48,22 @@
     }
 
     /* force table borders to survive print —
-       border-collapse: separate avoids vertical borders vanishing in PDF engines */
+       border-collapse: separate + box-shadow fallback for Firefox */
     table {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
+        color-adjust: exact;
         border-collapse: separate;
         border-spacing: 0;
-        border: 1px solid #bbb;
+        border: 1px solid #999;
     }
     th, td {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
-        border: 1px solid #bbb;
+        color-adjust: exact;
+        border: 1px solid #999;
+        /* Firefox sometimes drops cell borders in print — box-shadow as backup */
+        box-shadow: 0 0 0 0.5px #999;
         padding: 0.35rem 0.5rem;
         text-align: left;
         vertical-align: top;
