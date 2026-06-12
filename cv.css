@@ -46,6 +46,17 @@
     body {
         padding: 2mm;
     }
+
+    /* force table borders to survive print (browsers drop light borders by default) */
+    table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        border-collapse: collapse;
+    }
+    th, td {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
 }
 
 /* replace invalid '&' rule with 'body' to ensure styles apply for printing */
@@ -190,6 +201,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin: 0.5rem 0 0.75rem;
+    border: 1px solid #ddd;
 }
 
 th, td {
@@ -224,7 +236,7 @@ h3 + blockquote p {
 p,
 ul li,
 ol li {
-    line-height: 1.5;
+    line-height: 1.35;
 }
 
 ul,
