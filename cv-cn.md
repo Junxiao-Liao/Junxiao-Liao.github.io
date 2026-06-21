@@ -22,7 +22,7 @@
 3. 全栈功能与修复：凭证安全、权限系统、文档工作流、UI 标准化。
 
 **采购分析**：供应商数据采集（**Python**、**FastAPI**、**Prefect**、**React**）
-1. 构建**浏览器自动化 Agent** 用于网页供应商数据采集，集成至 **Prefect** 编排流水线。
+1. 构建**浏览器自动化 Agent** 用于网页供应商数据采集，集成至 **Prefect** 编排流水线：**Lightpanda** 低内存抓取，失败时回退至 **Playwright (Patchright)**。
 2. 将单体 **FastAPI** 后端重构为基于功能模块的目录结构。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*

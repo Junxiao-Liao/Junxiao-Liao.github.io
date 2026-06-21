@@ -24,7 +24,7 @@
 3. Delivered features and fixes across the stack: credential security, permission systems, document workflows, and UI standardization.
 
 **Procurement Analytics:** supplier data enrichment (**Python**, **FastAPI**, **Prefect**, **React**)
-1. Built a **browser automation agent** for web-based supplier data enrichment, integrated into **Prefect** orchestration pipelines.
+1. Built a **browser automation agent** for web-based supplier data enrichment, integrated into **Prefect** orchestration pipelines: **Lightpanda** for low-memory scraping with **Playwright (Patchright)** fallback.
 2. Refactored monolithic **FastAPI** backend into feature-based modules.
 
 ### Car Innovation Intern | Beijing, China: [**Volkswagen Group, Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *Oct 2023 - Jun 2024 (8 mo)*
