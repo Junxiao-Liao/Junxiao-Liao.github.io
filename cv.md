@@ -14,9 +14,11 @@
 
 **Major: Digital Media Technology (School of Software)**, computer science fundamentals and advanced topics in graphics, machine learning, and image processing.
 
-## Internships
+## Work Experience
 
-### Software Engineer Intern | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Present*
+### Junior Software Engineer | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Aug 2026 - Present*
+
+### Software Engineer Intern | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Aug 2026*
 
 **Document Processing:** enterprise platform (**NestJS**, **React**, **PHP/CodeIgniter**, **GraphQL**, **gRPC**)
 1. Rewrote legacy **PHP** (CodeIgniter, Smarty) pages (Announcements, Groups, Assign Users, etc.) into **React** frontends with **NestJS GraphQL** backends and **gRPC microservices**.

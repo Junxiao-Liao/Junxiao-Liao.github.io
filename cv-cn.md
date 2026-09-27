@@ -12,9 +12,11 @@
 
 **专业：数字媒体技术（软件学院）**，计算机科学基础与计算机图形学、机器学习、图像处理等进阶课程。
 
-## 实习经历
+## 工作经历
 
-### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
+### 初级软件工程师 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2026年8月 至今*
+
+### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 - 2026年8月*
 
 **文档处理**：企业平台（**NestJS**、**React**、**PHP/CodeIgniter**、**GraphQL**、**gRPC**）
 1. 将遗留 PHP (CodeIgniter, Smarty) 页面（公告、用户组、分配用户等）重写为 **React** 前端、**NestJS GraphQL** 后端与 **gRPC 微服务**。
