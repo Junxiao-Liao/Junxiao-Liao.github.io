@@ -18,9 +18,9 @@
 
 ### [**Xtracta**](https://xtracta.com/) | Auckland, New Zealand *Nov 2025 - Present*
 
-**Junior Software Engineer** — Aug 2026 - Present
+**Junior Software Engineer** *Aug 2026 - Present*
 
-**Software Engineer Intern** — Nov 2025 - Aug 2026
+**Software Engineer Intern** *Nov 2025 - Aug 2026*
 
 **Document Processing:** enterprise platform (**NestJS**, **React**, **PHP/CodeIgniter**, **GraphQL**, **gRPC**)
 1. Owned migration of the admin console from legacy PHP (CodeIgniter, Smarty) to **React** frontends, **NestJS GraphQL** backend, and **gRPC** services, including user, group, announcement, and history management features.
