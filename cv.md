@@ -16,12 +16,15 @@
 
 ## Work Experience
 
-### Junior Software Engineer | Auckland, New Zealand: [**Xtracta**](https://xtracta.com/) *Nov 2025 - Present*
-*Promoted from Software Engineer Intern (Nov 2025 - Aug 2026)*
+### [**Xtracta**](https://xtracta.com/) | Auckland, New Zealand *Nov 2025 - Present*
+
+**Junior Software Engineer** — Aug 2026 - Present
+
+**Software Engineer Intern** — Nov 2025 - Aug 2026
 
 **Document Processing:** enterprise platform (**NestJS**, **React**, **PHP/CodeIgniter**, **GraphQL**, **gRPC**)
 1. Owned migration of the admin console from legacy PHP (CodeIgniter, Smarty) to **React** frontends, **NestJS GraphQL** backend, and **gRPC** services, including user, group, announcement, and history management features.
-1. Fixed security issues including unguarded **GraphQL** resolvers, and unmasked credentials.
+1. Hardened **GraphQL** authorization and credential handling: added resolver access controls and masked sensitive configuration values.
 1. Built new features: **NestJS** caching module with **Redis**, new features in documents processing pages and configuration settings, **Apache** server monitoring pages.
 
 **Procurement Analytics:** supplier data enrichment (**Python**, **FastAPI**, **Prefect**, **TimescaleDB**, **Polars**)
@@ -44,17 +47,15 @@
 | Project | Link | Description | Tech Stack |
 |---|---|---|---|
 | Undergraduate Thesis | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | Document OCR & classification: RapidOCR + semantic embedding + pgvector recommendation | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
-| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | Backend framework from raw TCP | C#, .NET 8 |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Full-stack serverless music streaming on Cloudflare Workers | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
-| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | Gomoku (19x19) with heuristic AI | C++, Qt 6 |
-| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Client-side image stitching | Rust, WASM, SvelteKit 5, Tailwind v4 |
+| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | HTTP/1.1 server from raw TCP: routing, custom thread pool, concurrent collections | C#, .NET 8 |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | Multi-tenant serverless music streaming on Cloudflare Workers: audio/LRC upload & streaming, playlists, queue, admin panel | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Rust/WASM image stitching in a Web Worker with NCC-based overlap detection | Rust, WASM, SvelteKit 5, Tailwind v4 |
 
 ## Skills
 
-- **Languages**: Python, TypeScript, PHP; C#; C++, Rust
-- **Backend**: REST, GraphQL, gRPC; NestJS, CodeIgniter, FastAPI, ASP.NET; TypeORM, SQLAlchemy, Prisma
-- **Frontend**: React, Redux, Apollo Client; Svelte, MUI, Tailwind
-- **Databases and Data Processing**: PostgreSQL, MySQL, SQLite; MongoDB, Redis; MinIO
-- **AI / Machine Learning**: PyTorch, Transformers, scikit-learn; LLM fine-tuning (LoRA); Vector DB; Polars
-- **DevOps and Cloud**: Git, Docker, CI/CD (GitHub Actions, Bitbucket Pipelines); Cloudflare FaaS; Jira
-- **Systems and Embedded**: Linux (POSIX, Bash, systemd); CAN bus
+- **Languages**: Python, TypeScript, C#, PHP, C++, Rust
+- **Backend**: NestJS, FastAPI, ASP.NET, CodeIgniter; GraphQL, gRPC, REST; TypeORM, SQLAlchemy, Prisma
+- **Frontend**: React, Redux, Apollo Client
+- **Data**: PostgreSQL, TimescaleDB, pgvector; MySQL, SQLite, Redis, MongoDB; MinIO; Polars, Prefect
+- **AI / Machine Learning**: PyTorch, Transformers, scikit-learn; LLM fine-tuning (LoRA); embeddings
+- **Infrastructure**: Docker, Linux (POSIX, Bash, systemd), CI (GitHub Actions, Bitbucket Pipelines), Cloudflare Workers (D1, R2, Queues)

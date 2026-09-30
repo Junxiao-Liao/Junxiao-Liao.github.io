@@ -14,12 +14,15 @@
 
 ## 工作经历
 
-### 初级软件工程师 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
-*由软件工程实习生晋升（2025年11月 - 2026年8月）*
+### [**Xtracta**](https://xtracta.com/) | 奥克兰，新西兰 *2025年11月 至今*
+
+**初级软件工程师** — 2026年8月 至今
+
+**软件工程实习生** — 2025年11月 - 2026年8月
 
 **文档处理**：企业平台（**NestJS**、**React**、**PHP/CodeIgniter**、**GraphQL**、**gRPC**）
 1. 主导管理后台从遗留 PHP（CodeIgniter、Smarty）向 **React** 前端、**NestJS GraphQL** 后端与 **gRPC** 服务的迁移，覆盖用户、用户组、公告与历史记录等管理功能。
-1. 修复安全问题，包括未鉴权的 **GraphQL** 解析器与明文凭证暴露。
+1. 强化 **GraphQL** 鉴权与凭证处理：增加解析器访问控制，并对敏感配置值做脱敏。
 1. 开发新功能：基于 **Redis** 的 **NestJS** 缓存模块、文档处理页面与配置项新功能、**Apache** 服务监控页面。
 
 **采购分析**：供应商数据采集（**Python**、**FastAPI**、**Prefect**、**TimescaleDB**、**Polars**）
@@ -43,17 +46,15 @@
 | 项目 | 链接 | 简介 | 技术栈 |
 |---|---|---|---|
 | 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | 文档OCR分类: RapidOCR + 语义嵌入 + pgvector推荐 | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
-| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 基于原生TCP的后端框架 | C#, .NET 8 |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 全栈无服务器音乐流媒体（Cloudflare Workers） | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
-| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 五子棋（19x19）启发式AI | C++, Qt 6 |
-| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 客户端图片拼接 | Rust, WASM, SvelteKit 5, Tailwind v4 |
+| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 基于原生 TCP 的 HTTP/1.1 服务器：路由、自定义线程池、并发集合 | C#, .NET 8 |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 多租户无服务器音乐流媒体（Cloudflare Workers）：音频/LRC 上传与播放、歌单、播放队列、管理后台 | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | Rust/WASM 图片拼接（Web Worker 中运行，基于 NCC 的重叠检测） | Rust, WASM, SvelteKit 5, Tailwind v4 |
 
 ## 技能
 
-- **编程语言**：Python、TypeScript、PHP；C#；C++、Rust
-- **后端**：REST、GraphQL、gRPC；NestJS、CodeIgniter、FastAPI、ASP.NET；TypeORM、SQLAlchemy、Prisma
-- **前端**：React、Redux、Apollo Client；Svelte、MUI、Tailwind
-- **数据库与数据处理**：PostgreSQL、MySQL、SQLite；MongoDB、Redis；MinIO
-- **AI / 机器学习**：PyTorch、Transformers、scikit-learn；LLM 微调（LoRA）；向量数据库；Polars
-- **DevOps 与云**：Git、Docker、CI/CD（GitHub Actions、Bitbucket Pipelines）；Cloudflare FaaS；Jira
-- **系统与嵌入式**：Linux（POSIX、Bash、systemd）；CAN 总线
+- **编程语言**：Python、TypeScript、C#、PHP、C++、Rust
+- **后端**：NestJS、FastAPI、ASP.NET、CodeIgniter；GraphQL、gRPC、REST；TypeORM、SQLAlchemy、Prisma
+- **前端**：React、Redux、Apollo Client
+- **数据**：PostgreSQL、TimescaleDB、pgvector；MySQL、SQLite、Redis、MongoDB；MinIO；Polars、Prefect
+- **AI / 机器学习**：PyTorch、Transformers、scikit-learn；LLM 微调（LoRA）；嵌入向量
+- **基础设施**：Docker、Linux（POSIX、Bash、systemd）、CI（GitHub Actions、Bitbucket Pipelines）、Cloudflare Workers（D1、R2、Queues）
