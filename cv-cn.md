@@ -14,18 +14,19 @@
 
 ## 工作经历
 
-### 初级软件工程师 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2026年8月 至今*
-
-### 软件工程实习生 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 - 2026年8月*
+### 初级软件工程师 | 奥克兰，新西兰: [**Xtracta**](https://xtracta.com/) *2025年11月 至今*
+*由软件工程实习生晋升（2025年11月 - 2026年8月）*
 
 **文档处理**：企业平台（**NestJS**、**React**、**PHP/CodeIgniter**、**GraphQL**、**gRPC**）
-1. 将遗留 PHP (CodeIgniter, Smarty) 页面（公告、用户组、分配用户等）重写为 **React** 前端、**NestJS GraphQL** 后端与 **gRPC 微服务**。
-2. 为**文档提取界面**开发功能：工具提示指示器、行数边界显示、文档信息面板。
-3. 全栈功能与修复：凭证安全、权限系统、文档工作流、UI 标准化。
+1. 主导管理后台从遗留 PHP（CodeIgniter、Smarty）向 **React** 前端、**NestJS GraphQL** 后端与 **gRPC** 服务的迁移，覆盖用户、用户组、公告与历史记录等管理功能。
+1. 修复安全问题，包括未鉴权的 **GraphQL** 解析器与明文凭证暴露。
+1. 开发新功能：基于 **Redis** 的 **NestJS** 缓存模块、文档处理页面与配置项新功能、**Apache** 服务监控页面。
 
-**采购分析**：供应商数据采集（**Python**、**FastAPI**、**Prefect**、**React**）
-1. 构建**浏览器自动化 Agent** 用于网页供应商数据采集，集成至 **Prefect** 编排流水线：**Lightpanda** 低内存抓取，失败时回退至 **Playwright (Patchright)**。
-2. 将单体 **FastAPI** 后端重构为基于功能模块的目录结构。
+**采购分析**：供应商数据采集（**Python**、**FastAPI**、**Prefect**、**TimescaleDB**、**Polars**）
+1. 在 **Prefect** 中构建**浏览器自动化**数据采集 Agent：**Lightpanda** 无头引擎为主、**Patchright**（隐匿版 Playwright）兜底，按域名路由兼容策略，并以 LLM 做数据源质量检查。
+1. 基于 **TimescaleDB** 超表与 **Polars** 引擎重构价格统计流水线，将核心查询从 4 分钟以上优化至约 1 秒，并以差异测试验证正确性。
+1. 验证替代商品匹配方案：**DINOv3** 图像嵌入与文本嵌入，结合 **LLM 裁判**对候选商品对分类。
+1. 在教师模型标注数据上微调 **Kev-4B**（Qwen3.5 + **LoRA** 指针头）决策模型。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 
@@ -42,22 +43,17 @@
 | 项目 | 链接 | 简介 | 技术栈 |
 |---|---|---|---|
 | 本科毕业设计 | [GitHub](https://github.com/Junxiao-Liao/Doc-Ocr-Categorizer) | 文档OCR分类: RapidOCR + 语义嵌入 + pgvector推荐 | React, FastAPI, PostgreSQL, MinIO, RapidOCR, pgvector |
-| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 原生TCP构建的HTTP/1.1框架: 线程池、MapGet路由、并发集合 | C#, .NET 8 |
-| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 全栈无服务器音乐流媒体(Cloudflare Workers): 多租户认证、音频/LRC上传与播放、歌单、队列、后台管理；全球边缘部署 | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
-| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 五子棋(19x19)启发式AI: 棋子评分、DFS五连检测 | C++, Qt 6 |
-| Mini-Scheme | [GitHub](https://github.com/Junxiao-Liao/Mini-Scheme) | Scheme解释器: 递归下降解析、lambda闭包、词法作用域 | TypeScript |
-| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 客户端图片拼接: Rust/WASM在Web Worker，NCC重叠检测 | Rust, WASM, SvelteKit 5, Tailwind v4 |
-| Android-PC-Socket | [GitHub](https://github.com/Junxiao-Liao/Android-PC-Socket) | Android-PC通过ADB的Socket通信: TCP服务端，Java+Python双客户端 | Java, Python, ADB |
-| 股票ARIMA预测 | [GitHub](https://github.com/Junxiao-Liao/Stock-Price-Prediction-Based-on-ARIMA-Model) | ARIMA(p,d,q)网格搜索预测: Selenium爬取、ADF检验、残差分析 | Python, pandas, statsmodels |
+| SimpleBackendFramework | [GitHub](https://github.com/Junxiao-Liao/SimpleBackendFramework) | 基于原生TCP的后端框架 | C#, .NET 8 |
+| r-listener | [GitHub](https://github.com/Junxiao-Liao/r-listener) | 全栈无服务器音乐流媒体（Cloudflare Workers） | Hono v4, Drizzle ORM, D1, R2, Svelte 5, TanStack Query |
+| Qt-Wuziqi | [GitHub](https://github.com/Junxiao-Liao/Qt-Wuziqi) | 五子棋（19x19）启发式AI | C++, Qt 6 |
+| Merge-Images-Web | [GitHub](https://github.com/Junxiao-Liao/Merge-Images-Web) | 客户端图片拼接 | Rust, WASM, SvelteKit 5, Tailwind v4 |
 
 ## 技能
 
-- **编程语言**：Python、TypeScript、PHP；C#、Java、Kotlin；C++、Rust。熟悉：F#、Scala、Racket、Elixir
+- **编程语言**：Python、TypeScript、PHP；C#；C++、Rust
 - **后端**：REST、GraphQL、gRPC；NestJS、CodeIgniter、FastAPI、ASP.NET；TypeORM、SQLAlchemy、Prisma
 - **前端**：React、Redux、Apollo Client；Svelte、MUI、Tailwind
-- **数据库与存储**：PostgreSQL、MySQL、SQLite；MongoDB、Redis；MinIO
-- **消息队列**：RabbitMQ、NATS、Beanstalk
-- **AI / 机器学习**：scikit-learn、PyTorch、Transformers、Prefect；向量数据库
-- **DevOps 与工具链**：Git、Docker、CI/CD（GitHub Actions、Bitbucket Pipelines）；Jira、Bitbucket、Confluence
-- **云 / 边缘计算**：Cloudflare Workers、D1、R2、Queues；Serverless 架构
+- **数据库与数据处理**：PostgreSQL、MySQL、SQLite；MongoDB、Redis；MinIO
+- **AI / 机器学习**：PyTorch、Transformers、scikit-learn；LLM 微调（LoRA）；向量数据库；Polars
+- **DevOps 与云**：Git、Docker、CI/CD（GitHub Actions、Bitbucket Pipelines）；Cloudflare FaaS；Jira
 - **系统与嵌入式**：Linux（POSIX、Bash、systemd）；CAN 总线
