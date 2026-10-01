@@ -29,7 +29,7 @@
 1. 在 **Prefect** 中构建**浏览器自动化**数据采集 Agent：**Lightpanda** 无头引擎为主、**Patchright**（隐匿版 Playwright）兜底，按域名路由兼容策略，并以 LLM 做数据源质量检查。
 1. 基于 **TimescaleDB** 超表与 **Polars** 引擎重构价格统计流水线，将核心查询从 4 分钟以上优化至约 1 秒，并以差异测试验证正确性。
 1. 验证替代商品匹配方案：**DINOv3** 图像嵌入与文本嵌入，结合 **LLM 裁判**对候选商品对分类。
-1. 在教师模型标注数据上微调 **Kev-4B**（Qwen3.5 + **LoRA** 指针头）决策模型。
+1. 基于已发布检查点，在合成数据上增量微调 **Kev-4B**（Qwen3.5-4B-Base + **LoRA** 适配器 + 指针头）决策模型。
 
 ### 汽车创新实习生 | 中国北京：[**大众汽车集团，Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *2023年10月 - 2024年6月（8个月）*
 

@@ -31,7 +31,7 @@
 1. Built a **browser-automation** enrichment agent in **Prefect**: **Lightpanda** headless engine with **Patchright** (stealth Playwright) fallback, per-domain compatibility routing, and LLM-based source-quality checks.
 1. Rebuilt the price-statistics pipeline on **TimescaleDB** hypertables and a **Polars** engine, cutting a core query from over 4 minutes to about 1 second and validating correctness with a differential test.
 1. Prototyped substitute-product matching: **DINOv3** image embedding and text embeddings, and an **LLM judge** to classify candidate pairs.
-1. Fine-tuned a **Kev-4B** (Qwen3.5 + **LoRA** pointer head) decision model on teacher-labelled data.
+1. Delta fine-tuned **Kev-4B** (Qwen3.5-4B-Base + **LoRA** adapter + pointer head) from the released checkpoint on synthetic data.
 
 ### Car Innovation Intern | Beijing, China: [**Volkswagen Group, Cariad China**](https://volkswagengroupchina.com.cn/en/brands/cariad) *Oct 2023 - Jun 2024 (8 mo)*
 1. **Backend, DevOps**: Built a centralized **RESTful API service** (**python-can** and **FastAPI**) standardizing **CAN signal** read and write workflows, replacing redundant team-specific hardware and enabling unified vehicle bus data access.
